@@ -14,5 +14,6 @@ DEFAULT_REPLY = "출출해.."
 ROOT_DIR = dirname(abspath(__file__))
 
 PLUGINS = [
-    'chulchule_bot.plugins.tester'
+    'chulchule_bot.plugins.tester',
+    'chulchule_bot.plugins.late_counter',
 ]
