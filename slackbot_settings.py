@@ -8,6 +8,7 @@ load_dotenv(dotenv_path)
 
 API_TOKEN = environ.get('SLACK_API_TOKEN')
 ERRORS_TO = environ.get('DEFAULT_ERROR_REPORT')
+DARK_SKY_API_KEY = environ.get('DARKSKY_SECRET_KEY')
 
 DEFAULT_REPLY = "출출해.."
 
